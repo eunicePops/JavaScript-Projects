@@ -54,6 +54,7 @@ function Person(First, Last, Age, Height, Weight, Eye){
     document.getElementById("person").innerHTML = "My mum is " + myMum.First_Name + " " + myMum.Last_Name + ", she is " + myMum.Age + " years old, " + myMum.Height + " feet tall, weighs " + myMum.Weight + " pounds and has " + myMum.Eye_Color + " eyes.";
 }
 
+//creating a nested function to c
 function count_Function(){
     document.getElementById("Counting").innerHTML = Count();
     function Count(){
@@ -64,5 +65,4 @@ function count_Function(){
         Plus_one();
         return Starting_point;
     }
-    document.getElementById("count").innerHTML = plus_one();
 }
