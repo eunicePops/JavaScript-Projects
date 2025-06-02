@@ -69,15 +69,3 @@ function AreaOfCircle(){
     var area = Math.PI * Math.pow(radius, 2);
     document.getElementById("areaOfCircle").innerHTML = "The area of the circle is: " + area;
 }
-
-function mydictionary() {
-    var dictionarydetails = {
-      name: "Francis",
-      age: 30,
-      city: "Barrie",
-      gender: "male",
-      designation: "Software Engineer",
-    };
-    document.getElementById("dictionary").innerHTML = "The designation is: " + dictionarydetails.designation;  
-   // document.write(" The name is: " + dictionarydetails.name + "<br>");
-}

@@ -19,5 +19,5 @@ function conCat(){
 //function to add numbers 
 function addition(){
     var addNum = 2 + 3;
-    document.getElementById("AddMath").innerHTML = " 2 + 2 = " + addNum;
+    document.getElementById("AddMath").innerHTML = " 2 + 3 = " + addNum;
 }

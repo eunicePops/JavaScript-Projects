@@ -50,6 +50,7 @@ function vehicle_function() {
     "Jack drives a " + Jack.Vehicle_Color + "-colored " + Jack.Vehicle_Model + " manufactured in " + Jack.Vehicle_Year;
 }
 
+//the function Person is created to create a person object using the constructor function Person
 function Person(First, Last, Age, Height, Weight, Eye){
     this.First_Name = First;
     this.Last_Name = Last;
@@ -58,7 +59,7 @@ function Person(First, Last, Age, Height, Weight, Eye){
     this.Weight = Weight;
     this.Eye_Color = Eye;
 }
-    //creating a person object
+    //creating a person object showPerson as a handler function 
   function showPerson(){
     
     const myMum = new Person("Eunice", "Duru", 65, 5.5, 150, "Brown");
@@ -72,13 +73,17 @@ function Person(First, Last, Age, Height, Weight, Eye){
 function count_Function(){
     //
     document.getElementById("Counting").innerHTML = Count();
-    //creating a  function  to count
+    //creating a  Count function to count from 9 to 10
     function Count(){
+        //declaring a variable Starting_point and assigning it a value of 9
         var Starting_point = 9;
         function Plus_one(){
+            //incrementing the value of Starting_point by 1
             Starting_point += 1;
         }
+        //calling the Plus_one function to increment the value of Starting_point by 1
         Plus_one();
+        //returning the value of Starting_point
         return Starting_point;
     }
 }
