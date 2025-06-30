@@ -2,7 +2,6 @@
 A list of some Projects I wrote with Javascript
 
 ## Projects
-link Calculator
-
+- Pizza-Menu
 - Tic-Tac-Toe Game
 - Calculator
