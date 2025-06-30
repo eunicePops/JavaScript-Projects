@@ -2,9 +2,9 @@
 A list of some Projects I wrote with Javascript
 
 ## Projects
-- Pizza-Menu
-- Tic-Tac-Toe Game
-- Calculator
+- [Pizza-Menu](https://github.com/eunicePops/JavaScript-Projects/tree/main/Pizza-Project)
+- [Tic-Tac-Toe Game](https://github.com/eunicePops/TicTacToe)
+- [Calculator]() 
 
 ## Pizza-Menu
 In this project I created a Pizza Menu that contains sizes and toppings ordered, 
