@@ -1,2 +1,6 @@
 # JavaScript-Projects
-Projects written with Javascript
+A list of some Projects I wrote with Javascript
+
+##Pizza-Menu
+##Tic-Tac-Toe Game
+##Calculator
